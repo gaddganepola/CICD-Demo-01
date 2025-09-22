@@ -15,6 +15,6 @@ public class TestController {
 
     @GetMapping("/bye")
     public ResponseEntity<String> bye() {
-        return new ResponseEntity<>("Bye From EC2", HttpStatus.OK);
+        return new ResponseEntity<>("Bye From EC222", HttpStatus.OK);
     }
 }
