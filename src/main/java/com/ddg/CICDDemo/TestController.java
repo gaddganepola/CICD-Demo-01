@@ -12,4 +12,9 @@ public class TestController {
     public ResponseEntity<String> hello() {
         return new ResponseEntity<>("Hello From EC2", HttpStatus.OK);
     }
+
+    @GetMapping("/bye")
+    public ResponseEntity<String> bye() {
+        return new ResponseEntity<>("Bye From EC2", HttpStatus.OK);
+    }
 }
